@@ -7,9 +7,10 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Header / Navbar -->
+
+  <!-- Header -->
   <header>
-    <div class="container">
+    <div class="container header-container">
       <h1 class="logo">SMAN 1 Contoh Sejahtera</h1>
       <nav>
         <ul>
@@ -25,24 +26,27 @@
 
   <!-- Hero Section -->
   <section id="home" class="hero">
-    <div class="hero-content">
-      <h2>Selamat Datang di SMAN 1 Contoh Sejahtera</h2>
-      <p>Mengembangkan generasi unggul, cerdas, dan berkarakter.</p>
-      <a href="#about" class="btn">Pelajari Lebih Lanjut</a>
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h2>Selamat Datang di SMAN 1 Contoh Sejahtera</h2>
+        <p>Mencetak generasi cerdas, berkarakter, dan berprestasi.</p>
+        <a href="#about" class="btn">Pelajari Lebih Lanjut</a>
+      </div>
     </div>
   </section>
 
-  <!-- About Section -->
+  <!-- Tentang Sekolah -->
   <section id="about" class="about">
     <div class="container">
       <h2>Tentang Sekolah</h2>
       <p>
-        SMAN 1 Contoh Sejahtera berdiri sejak tahun 1995 dengan visi menjadi sekolah unggulan dalam prestasi akademik dan non-akademik.
+        SMAN 1 Contoh Sejahtera berdiri sejak tahun 1995 dengan visi menjadi sekolah unggulan dalam bidang akademik dan non-akademik. 
+        Kami berkomitmen untuk menciptakan lingkungan belajar yang kondusif dan inovatif.
       </p>
     </div>
   </section>
 
-  <!-- Program Section -->
+  <!-- Program Unggulan -->
   <section id="program" class="program">
     <div class="container">
       <h2>Program Unggulan</h2>
@@ -57,44 +61,45 @@
         </div>
         <div class="card">
           <h3>Program Sosial</h3>
-          <p>Menumbuhkan empati dan kepemimpinan sosial.</p>
+          <p>Menumbuhkan empati dan kepemimpinan sosial di masyarakat.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- News Section -->
+  <!-- Berita Sekolah -->
   <section id="news" class="news">
     <div class="container">
       <h2>Berita Terbaru</h2>
       <div class="news-list">
         <div class="news-item">
-          <img src="https://via.placeholder.com/300x200" alt="Berita 1" />
-          <h3>Prestasi Siswa di Olimpiade Sains Nasional</h3>
-          <p>Siswa SMAN 1 Contoh Sejahtera meraih medali emas bidang Fisika.</p>
+          <img src="https://via.placeholder.com/400x250" alt="Berita 1">
+          <h3>Prestasi Olimpiade Sains Nasional</h3>
+          <p>Siswa SMAN 1 Contoh Sejahtera meraih medali emas di bidang Fisika.</p>
         </div>
         <div class="news-item">
-          <img src="https://via.placeholder.com/300x200" alt="Berita 2" />
-          <h3>Peringatan Hari Guru Nasional</h3>
-          <p>Kegiatan spesial untuk menghargai dedikasi para guru.</p>
+          <img src="https://via.placeholder.com/400x250" alt="Berita 2">
+          <h3>Hari Guru Nasional</h3>
+          <p>Perayaan Hari Guru dengan berbagai kegiatan dan penghargaan.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Contact Section -->
+  <!-- Kontak -->
   <section id="contact" class="contact">
     <div class="container">
       <h2>Kontak Kami</h2>
       <p>Email: info@sman1contoh.sch.id</p>
       <p>Telepon: (021) 123-4567</p>
-      <p>Alamat: Jl. Pendidikan No.1, Kota Sejahtera</p>
+      <p>Alamat: Jl. Pendidikan No. 1, Kota Sejahtera</p>
     </div>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2025 SMAN 1 Contoh Sejahtera. Semua Hak Dilindungi.</p>
+    <p>&copy; 2025 SMAN 1 Contoh Sejahtera. Semua hak dilindungi.</p>
   </footer>
+
 </body>
 </html>
